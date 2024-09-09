@@ -17,7 +17,7 @@ resource "aws_instance" "test" {
 
 resource "aws_ebs_volume" "ebs2" {
   availability_zone = "us-west-2a"
-  size              = 1
+  size              = 2
   tags = {
     "Name" = "testvol"
   }
